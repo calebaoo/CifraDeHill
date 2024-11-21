@@ -20,7 +20,7 @@ Funções Utilizadas
 -	Espaco(char c): Verifica se um caractere é um espaço em branco.
 -	ConverterMaiusculo(char c): Converte um caractere minúsculo para maiúsculo, mantendo as letras maiúsculas inalteradas.
 
-2. Funcionamento do Programa
+Funcionamento do Programa
    
 - Entrada de Dados: O usuário insere uma mensagem de texto. O programa verifica se a entrada contém apenas caracteres válidos (letras e espaços).
 - Conversão para Maiúsculas: O programa converte automaticamente todas as letras minúsculas para maiúsculas antes de prosseguir com a criptografia. (a biblioteca string.h é limitada, é necessário que haja essa conversão).
