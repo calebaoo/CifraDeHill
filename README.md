@@ -28,7 +28,7 @@ O código desenvolvido implementa a cifra de Hill utilizando uma matriz de chave
 3.	Remoção de Espaços e Padding: O programa descarta os espaços e adiciona um padding de 'X' se o comprimento da mensagem não for múltiplo de 2. Isso é necessário para garantir que a cifra de Hill opere em blocos de tamanho 2, que é a dimensão da matriz de chave utilizada.
 4.	Cifra de Hill: A cifra de Hill é aplicada em blocos de 2 caracteres, onde cada bloco de caracteres é convertido para um vetor numérico. Esse vetor é multiplicado pela matriz de chave 2×2 e, em seguida, convertido de volta para caracteres. O resultado final é a mensagem criptografada.
 5.	Saída: A mensagem criptografada é exibida na tela.
-
+   
 3. EXEMPLO DE EXECUÇÃO
 Para ilustrar a execução do programa, considere a seguinte entrada:
 Entrada: "mensagem"
